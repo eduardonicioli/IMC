@@ -10,7 +10,7 @@
 
 .container img{
 	display: flex;
-	flex-direction: row;
+	flex-direction: center;
 	margin: auto;
 }
 
