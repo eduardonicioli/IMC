@@ -17,44 +17,57 @@
 
 </head>
 <body>
+
 <div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <?php
+      <div class="col">
+        <<div class="row-md-6">
+          <img src="imc.jpg" alt="IMC" class="img-fluid">
+            </div>
+                <div class="row-md-6">
 
-                        $peso = $_POST['peso'];
-                        $altura = $_POST['altura'];
-                        $imc = $peso / ($altura * $altura);
+                    <?php
+
+                    $peso = $_POST['peso'];
+                    $altura = $_POST['altura'];
+                    $imc = $peso / ($altura * $altura);
 
 
-                        echo "<h2>Seu IMC é: $imc</h2>";
+                    echo "<br><h4>O seu IMC é: $imc<br>";
+                    
 
-                        if($imc < 18.5){
-                            echo"<h3>Você está abaixo do peso</h3>";
-                        }
-                        elseif($imc >= 18.6 && $imc <= 24.99){
-                            echo"<h3>Você está no peso ideal!</h3>";
-                        }
-                        elseif($imc >= 25.0 && $imc <= 29.99){
-                            echo"<h3>Você está levemente sobrepeso</h3>";
-                        }
-                        elseif($imc >= 30.0 && $imc <=39.99){
-                            echo"<h3>Você está com obesidade I</h3>";
-                        }
-                        elseif($imc >=  35.0 && $imc <= 39.0){
-                            echo"<h3>Você está com obesidade II (severa)</h3>";
-                        }
-                        else{
-                            echo"<h3>Você está com obesiadade III (mormida)</h3>";
-                        }
+                    if($imc < 18.5){
+                        echo"Você está abaixo do peso";
+                    }
+                    elseif($imc >= 18.6 && $imc <= 24.99){
+                        echo"<br>Você está no peso ideal!";
+                    }
+                    elseif($imc >= 25.0 && $imc <= 29.99){
+                        echo"<br>ocê está levemente sobrepes";
+                    }
+                    elseif($imc >= 30.0 && $imc <=39.99){
+                        echo"<br>Você está com obesidade I";
+                    }
+                    elseif($imc >=  35.0 && $imc <= 39.0){
+                        echo"<br>Você está com obesidade II (severa)";
+                    }
+                    else{
+                        echo"<br>Você está com obesiadade III (mormida)";
+                    }
 
-                ?>
-            </div>    
+                    ?>
+                </div>
+            </div>
         </div>
-    </div> 
+    </div>
+</div><br>
+<div class="container">
+    <div class="col">
+        <div class="row-md-6">
+          <a href="index.html" class="btn btn-lg btn-secondary" >Voltar</a>
+    </div>
 </div>
+
 <br>
-<a href="index.html">Voltar</a> <!-- Adicione um link para voltar à página anterior -->
+
 </body>
 </html>
