@@ -20,6 +20,7 @@
 
 <div class="container">
     <div class="col">
+    <img src="imc.jpg" alt="IMC" class="img-fluid">
         <div class="row-md-6">
           
             </div>
