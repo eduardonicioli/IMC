@@ -1,8 +1,8 @@
 .container{
 	display: flex;
 	flex-direction: row;
-	padding: 2rem;
-	margin: auto;
+	padding: 2rem 2rem;
+	margin: 2rem auto;
 	border: 2px solid;
 	box-shadow: 10px 10px #888888;
 	font-family: courier new;
@@ -14,19 +14,11 @@
 	margin: auto;
 }
 
-.container h4{
-	ext-align: center;
-	justify-content: center;
+.container{
+	text-align: center;
 }
 
-footer{
-	text-align: center;
-	padding: 2rem;
-	margin: 2rem 2rem;
-	border: 2px solid;
-	box-shadow: 10px 10px #888888;
-	font-family: courier new;
-}
+
 
 
 
