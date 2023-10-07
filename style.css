@@ -26,13 +26,11 @@ footer{
 }
 
 form{
-	text-align: center;
+	display: flex;
+	flex-direction: row;
 	padding: 2rem;
-	margin: 2rem 2rem;
+	margin: 2rem;
 	border: 2px solid;
 	box-shadow: 10px 10px #888888;
 	font-family: courier new;
 }
- h2{
-	font-family: 'Courier New', Courier, monospace;
- }
